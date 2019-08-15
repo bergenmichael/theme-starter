@@ -4,9 +4,6 @@ const DarkMagic = () => {
   let app = document.querySelector('.app');
   let isDark = app.classList.contains('dark');
   let isLight = app.classList.contains('light');
-  let test = app.classList.value.split(' ').length;
-
-  console.log("TESTTEST", test);
 
   if (isDark || isLight) {
     app.classList = 'app';
