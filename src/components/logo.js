@@ -5,12 +5,14 @@ const DarkMagic = () => {
   let isDark = app.classList.contains('dark');
   let isLight = app.classList.contains('light');
   let test = app.classList.value.split(' ').length;
-  
+
   console.log("TESTTEST", test);
 
   if (isDark || isLight) {
     app.classList = 'app';
-  } 
+  } else {
+    app.classList = 'app dark';
+  }
 
   if(isDark) {
     app.classList.add('light');
