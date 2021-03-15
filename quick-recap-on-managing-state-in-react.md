@@ -93,7 +93,7 @@ Now we can convert our App class component to a functional component as well and
 ```
 const [theme, setTheme] = useState('dark');
 const handleThemeToggle = () => {
-  setTheme(theme === 'dark' ? 'light' : 'dark');
+  setTheme(theme === 'dark' ? 'dark' : 'light');
 }
 ```
 ​
