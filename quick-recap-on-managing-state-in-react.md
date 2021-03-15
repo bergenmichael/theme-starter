@@ -106,10 +106,12 @@ const handleThemeToggle = () => {
 ​
 Now our app is much cleaner and less bug prone.  All we do is read and write state.  If/when state ever changes the component will rerender and everything works as before but now it is much easier to identify what is happening and where things are being controlled; from the top down.
 ​
-A challenge for you is to update this app to be able to handle more than just two themes.  For the full code to see one way I was able to make this work, download the app from [github](https://github.com/bergenmichael/theme-starter).
+## A challenge for you
+Update this app or create your own that handles more than just two themes.  For the full code to see one way I was able to make this work, download the app from [github](https://github.com/bergenmichael/theme-starter).
 ​
 You'll notice some other optimizations going with this app.  To name a few, there are a couple more hooks introduced, [useEffect](https://reactjs.org/docs/hooks-effect.html) and [useCallback](https://reactjs.org/docs/hooks-reference.html#usecallback), as well as introducing [React.memo()](https://reactjs.org/docs/optimizing-performance.html). [useMemo()](https://reactjs.org/docs/hooks-reference.html#usememo)
 ​
-If you have some advise or more ideas we can collaborate and build out some starter or sample apps that can save us time ramping up on new React projects and help us all learn.
+## Participate
+If you have advise or ideas building out starter-kit type boilerplate apps or sample apps that can serve as discussion topics if nothing else, on new React projects and help us all learn.
 ​
-Although, it _can be_ fun to put together projects from scratch, it will be nice to contribute toward standardizing and facilitating discussion around working concepts and best practices.  I know there are still some issues to work out with hooks like in dev tools and more advanced issues, but this should be an easy introduction to some nice patterns we can all build upon.
+Although, it _can be_ fun to put together projects from scratch, it will be nice to contribute toward standardizing and facilitating discussion around working concepts and best practices.  I know there are still some issues to work out with hooks, like in dev tools and more advanced issues, but this should be an easy introduction to some nice patterns we can all build upon.
